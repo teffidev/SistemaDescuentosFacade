@@ -14,11 +14,11 @@ public class Main {
         Producto producto = new Producto("Arvejas", "lata");
         int cantidad = 13;
 
-        int desceuntoTotal = descuentoFacade.verificarDescuento(tarjeta, producto, cantidad);
+        int descuentoTotal = descuentoFacade.verificarDescuento(tarjeta, producto, cantidad);
 
 
 
-        System.out.println("Tu descuento fue de un: " + desceuntoTotal + "%");
+        System.out.println("Tu descuento fue de un: " + descuentoTotal + "%");
 
     }
 }
